@@ -48,7 +48,7 @@ import UIKit
     
     func ratingButtonTapped(button: UIButton) {
         guard let index = ratingButtons.index(of: button) else {
-            fatalError("The button, \(button), is not in the ratingButtons array: \(ratingButtons)")
+            fatalError("The button 123s, \(button), is not in the ratingButtons array: \(ratingButtons)")
         }
         
         // Calculate the rating of the selected button
